@@ -2,5 +2,25 @@ body{
     background-image: url("../IMAGES/Underhell_ModDB_P1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    min-height:auto;
+    margin: 0;
+    padding: 0;
+    display: inline;
+
    
 }
+
+.Main {
+    font-size: 100px;
+    padding-left: 20%;
+    font-style: normal;
+    color: rgb(36, 48, 15);
+    
+}
+.logo {
+    size: 5px;
+    
+}
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
