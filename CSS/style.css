@@ -1,26 +1,52 @@
 body{
-    background-image: url("../IMAGES/Underhell_ModDB_P1.jpg");
+    background-image: url("../IMAGES/liam-tart-city17-final-03.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height:auto;
-    margin: 0;
-    padding: 0;
-    display: inline;
+       
+    position: fixed; 
+    top: 0; 
+    left: 0;     
+    
+    min-width: 100%;
+    min-height: 100%;
+      }
 
-   
-}
 
 .Main {
-    font-size: 100px;
-    padding-left: 20%;
-    font-style: normal;
-    color: rgb(36, 48, 15);
-    
+    font-size: 90px;
+    padding-left: 1%;
+    font-style: oblique;
+    color: rgb(242, 248, 234);
+    text-align:center;
+    padding-top: 1px;
+    font-weight: bolder;
 }
-.logo {
-    size: 5px;
-    
+
+
+.footer{
+    margin-top: 35%;
+    color: ivory;
+    text-align: center;
 }
-.button1 {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+      
+    
+
+.column {    
+    
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    text-align: center;
+    
+    
+    
+  }
+  
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
   }
