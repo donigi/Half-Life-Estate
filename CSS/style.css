@@ -1,22 +1,18 @@
 body{
-    background-image: url("../IMAGES/liam-tart-city17-final-03.jpg");
+    background-image: url("../IMAGES/apartment-3564955_1920.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-       
-    position: fixed; 
-    top: 0; 
-    left: 0;     
     
-    min-width: 100%;
-    min-height: 100%;
+       
+   
       }
 
 
 .Main {
-    font-size: 90px;
+    font-size: 80px;
     padding-left: 1%;
     font-style: oblique;
-    color: rgb(242, 248, 234);
+    color:  rgb(8, 73, 19);
     text-align:center;
     padding-top: 1px;
     font-weight: bolder;
@@ -24,8 +20,8 @@ body{
 
 
 .footer{
-    margin-top: 35%;
-    color: ivory;
+    margin-top: 10%;
+    color: rgb(8, 73, 19);
     text-align: center;
 }
 
@@ -34,17 +30,30 @@ body{
 
 .column {    
     
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
-   align-content: center;  
+   
+   flex: 15%;
+   padding: 5px;  
     
     
   }
   
-
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  * {
+    box-sizing: border-box;
   }
+
+.row {
+  display:flex;
+}
+
+.column img {
+  width:15%;
+  text-align: center;
+  
+}
+
+.pclass{
+  font-size: 30px;
+  color: rgb(8, 73, 19);
+  
+}
+
